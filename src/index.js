@@ -45,7 +45,7 @@ mongoose
 
 app.get('/', (req, res) => {
     redisClient.set('visits', 100);
-    res.send('<h1> Hello World!hhh</h1>');
+    res.send('<h1> Hello World! using docker hub</h1>');
 });
 
 app.get('/data', async (req, res) => {
